@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentWord = ''; //set default word
     let isDownloading = false;
     let currentImageUrl = '';
+    require('dotenv').config();
 
     fetchImages();
 
